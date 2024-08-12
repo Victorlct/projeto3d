@@ -1,26 +1,38 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Header />
+    <div class="sections">
+      <section id="home" class="section">
+        <div class="row w-100">
+          <div class="col-6 px-4 d-flex align-items-center">
+            <TypeItComponent />
+          </div>
+          <div class="col-6">
+            <ThreeDImage />
+          </div>
+        </div>
+
+      </section>
+      <section id="techs" class="section"><AnimatedButton /></section>
+      <section id="contato" class="section">Contato com curriculo</section>
+    </div>
+    <ScrollComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/HeaderPadrao.vue';
+import ScrollComponent from './components/ScrollComponent.vue';
+import TypeItComponent from './components/TypeItComponent.vue';
+import ThreeDImage from './components/ThreeDImage.vue';
+import AnimatedButton from './components/AnimatedButton.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    ScrollComponent,
+    TypeItComponent,
+    ThreeDImage,
+    AnimatedButton
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

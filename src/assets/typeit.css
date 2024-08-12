@@ -1,0 +1,27 @@
+.typeit-container {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 42px;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
+  }
+
+.typeit--title{
+    font-size: 58px;
+    color: var(--primaryColor);
+
+    @media (max-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+.typeit--alias{
+    font-size: 32px;
+
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}

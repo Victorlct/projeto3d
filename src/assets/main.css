@@ -1,0 +1,39 @@
+:root{
+  --primaryColor: #0773ED;
+  --secondaryColor: #f7f7f5;
+  --tertiaryColor: #1F363D;
+  --dangerColor: #FF686B;
+  --infoColor: #DEC0F1;
+  --warningColor: #FFBA49;
+  --successColor: #20a39e;
+
+  --bg-light: #f7f7f5;
+  --bg-medium: #e0e0e0;
+  --bg-dark: #d0d0d0;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#home {
+  background-color: var(--bg-light);
+}
+
+#techs {
+  background-color: var(--bg-medium);
+}
+
+#contato {
+  background-color: var(--bg-dark);
+}
