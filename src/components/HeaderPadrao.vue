@@ -28,9 +28,10 @@
 </template>
 
 <script>
+
 export default {
-  name: 'HeaderPadrao'
-}
+  name: 'HeaderPadrao',
+};
 
 import '../assets/headerComponent.css';
 </script>

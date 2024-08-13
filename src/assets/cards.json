@@ -1,0 +1,18 @@
+[
+  { "title": ".NET", "img": "net.png" },
+  { "title": "C#", "img": "csharp.png" },
+  { "title": "Python", "img": "python.webp" },
+  { "title": "VueJS", "img": "vuejs.png" },
+  { "title": "JavaScript", "img": "jscircle.png" },
+  { "title": "JQUERY", "img": "jquery.png" },
+  { "title": "HTML", "img": "html.png" },
+  { "title": "CSS", "img": "css.png" },
+  { "title": "SCSS", "img": "scss.png" },
+  { "title": "Bootstrap", "img": "bootstrap.png" },
+  { "title": "Umbraco", "img": "umbraco.png" },
+  { "title": "Figma", "img": "figma.png" },
+  { "title": "SQL Server", "img": "sqlserver.png" },
+  { "title": "Docker", "img": "docker.png" },
+  { "title": "Azure", "img": "azure.png" },
+  { "title": "Jira", "img": "jira.png" }
+]

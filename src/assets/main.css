@@ -15,6 +15,7 @@
 .sections {
     display: flex;
     flex-direction: column;
+    font-family: "Space Grotesk", sans-serif;
   }
   
 .section {
