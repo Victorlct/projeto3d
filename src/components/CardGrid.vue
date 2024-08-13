@@ -85,7 +85,23 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
     width: 80vw;
-    height: 80vh;
+    max-height: 80vh;
   }
+
+    @media screen and (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            overflow: auto;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            overflow: auto;
+        }
+    }
   </style>
   

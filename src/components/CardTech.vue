@@ -55,4 +55,14 @@ export default {
     padding: 8px;
     gap: 12px;
 }
+
+    @media screen and (max-width: 768px) {
+        .card {
+            overflow: visible;
+        }
+        .card-image {
+            width: 30px;
+            max-height: 40px;
+        }
+    }
 </style>
