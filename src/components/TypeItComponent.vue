@@ -1,5 +1,5 @@
 <template>
-  <div ref="typeItContainer" class="typeit-container px-5 px-md-3 text-start"></div>
+  <div ref="typeItContainer" class="typeit-container px-md-3 text-start"></div>
 </template>
 
 <script>

@@ -38,3 +38,30 @@
 #contato {
   background-color: var(--bg-dark);
 }
+
+.container-home {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .container-home {
+    height: 50%;
+  }
+}
+
+.rounded-mask {
+  border-radius: 50%; 
+  overflow: hidden;
+  display: block;
+  width: 75%;
+  height: auto;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
+              0 0 15px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
+}
+
