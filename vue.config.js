@@ -1,5 +1,5 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: '/projeto3d/',
+  publicPath: '/site-sobre-mim/',
   transpileDependencies: true
 })
